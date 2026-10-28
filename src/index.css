@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Cherry+Bomb+One&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Audiowide", sans-serif;
+}
+
+:root {
+    --bg-color: #080808;
+    --secondary-bg-color: #131313;
+    --box-color: #292929;
+    --text-color: white;
+    --main-color: #00ffee;
+}
+
+body {
+    /* background-color: rgb(33, 33, 33); */
+     background-image: linear-gradient(
+    /* rgba(0, 0, 0, 0.6),  */
+    rgba(0, 0, 0, 0.7)
+  ), url('https://i.pinimg.com/originals/5f/08/58/5f085809f2b711643e4eb4974cc03c0e.gif');
+  background-size: cover;
+  background-position: center left;
+  background-attachment: fixed;
+  background-clip: padding-box;
+    color: white;
+    /* Optional: text color so it's readable */
+    margin: 0;
+    /* Removes default browser margins */
+}
