@@ -4,6 +4,12 @@ import Reveal from './Reveal'
 import img1 from '../assets/design-works/1.jpg'
 import img2 from '../assets/design-works/2.png'
 import img3 from '../assets/design-works/3.png'
+import img4 from '../assets/design-works/4.jpg'
+import img5 from '../assets/design-works/5.png'
+import img6 from '../assets/design-works/6.png'
+import img7 from '../assets/design-works/7.png'
+import img8 from '../assets/design-works/8.png'
+import img9 from '../assets/design-works/9.png'
 
 // ─────────────────────────────────────────────────────────────
 // Placeholder generator so the layout renders before you add art.
@@ -22,15 +28,15 @@ const ph = (label, bg, fg = '#fff') =>
 
 // `id` maps to a CSS class (t-a, t-b …) that places the picture in the collage grid.
 const works = [
-  { id: 'a', title: 'Snack Ad',        image: img1,  link: '' },
-  { id: 'b', title: 'Movie Poster',    image: img3,        link: '' },
-  { id: 'c', title: 'Chocolate Ad',    image: img2,         link: '' },
-  { id: 'd', title: 'Grand Opening',   image: ph('Opening', '#1f6f5b'),  link: '' },
-  { id: 'e', title: 'Product Promo',   image: ph('Product', '#2a2a2a'),          link: '' },
-  { id: 'f', title: 'Sports Edit',     image: ph('Sports', '#e0561b'),        link: '' },
-  { id: 'g', title: 'Noodles Pack',    image: ph('Noodles', '#6b0d22'),  link: '' },
-  { id: 'h', title: 'Athlete Poster',  image: ph('Athlete', '#a0121a'),          link: '' },
-  { id: 'i', title: 'Cafe Menu',       image: ph('Menu', '#3b3b3b'),  link: '' },
+  { id: 'a', title: 'Snack Ad', image: img1, link: '' },
+  { id: 'b', title: 'Movie Poster', image: img2, link: '' },
+  { id: 'c', title: 'Chocolate Ad', image: img3, link: '' },
+  { id: 'd', title: 'Grand Opening', image: img4, link: '' },
+  { id: 'e', title: 'Product Promo', image: img5, link: '' },
+  { id: 'f', title: 'Sports Edit', image: img6, link: '' },
+  { id: 'g', title: 'Noodles Pack', image: img7, link: '' },
+  { id: 'h', title: 'Athlete Poster', image: img8, link: '' },
+  { id: 'i', title: 'Cafe Menu', image: img9, link: '' },
 ]
 
 const DesignWorks = () => {
@@ -39,8 +45,8 @@ const DesignWorks = () => {
       <div className="dw-board">
         <Reveal className="dw-title-wrap">
           <h2 className="dw-title">
-            Social Media
-            <span className="dw-script">Designs</span>
+            My <span>Designs</span>
+            {/* <span className="dw-script">Designs</span> */}
           </h2>
         </Reveal>
 

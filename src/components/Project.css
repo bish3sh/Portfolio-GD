@@ -1,5 +1,5 @@
 .design-works {
-    padding: 100px 15px;
+    padding: 0 15px;
     overflow-x: hidden;
     position: relative;
 }
@@ -38,7 +38,7 @@
 .dw-title {
     position: relative;
     margin: 0;
-    font-family: 'Anton', 'Bebas Neue', Impact, 'Arial Narrow', sans-serif;
+    /* font-family: 'Anton', 'Bebas Neue', Impact, 'Arial Narrow', sans-serif; */
     font-weight: 400;
     font-size: clamp(2.2rem, 5.2vw, 4.4rem);
     line-height: 1;
@@ -85,7 +85,7 @@
 .dw-card:hover,
 .dw-card:focus-visible {
     transform: translateY(-4px) scale(1.03);
-    filter: drop-shadow(0 12px 28px rgba(0, 255, 238, 0.3));
+    filter: drop-shadow(0 12px 28px rgba(255, 255, 255, 0.534));
     z-index: 5;
     outline: none;
 }
