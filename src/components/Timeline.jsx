@@ -16,7 +16,7 @@ const timelineData = [
     {
         date: '2024 - 2025',
         title: 'Arete Viva SEO',
-        text: 'UI/UX Designer'
+        text: 'UI/UX and Product Designer'
     },
     {
         date: '2025 - 2026',
@@ -26,7 +26,7 @@ const timelineData = [
     {
         date: '2026',
         title: 'Chitra Tech',
-        text: 'Frontend Developer Intern'
+        text: 'Lead Designer & Developer'
     },
 ]
 

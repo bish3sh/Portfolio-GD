@@ -70,7 +70,11 @@ const DesignWorks = () => {
           )
         })}
       </div>
+      <div className="design-btn-container">
+        <button className="design-cta" onClick={() => window.open('https://drive.google.com/drive/folders/1vRYVXv4xDJDW7Xp8--DRTJI2f1xFy1vW', '_blank', 'noopener,noreferrer')}>MORE DESIGNS</button>
+      </div>
     </section>
+
   )
 }
 

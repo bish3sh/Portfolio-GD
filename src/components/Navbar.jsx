@@ -19,9 +19,9 @@ const Navbar = () => {
 
                     {/* Right Section - Social & CTA (Desktop Only) */}
                     <div className="navbar-right">
-                        <a href="https://github.com/bish3sh" className="icon-btn" aria-label="Github" target="_blank" rel="noopener noreferrer">
+                        {/* <a href="https://github.com/bish3sh" className="icon-btn" aria-label="Github" target="_blank" rel="noopener noreferrer">
                             <i className='bx bxl-github'></i>
-                        </a>
+                        </a> */}
                         {/* <a href="mailto:maharjanbishesh8@gmail.com" className="icon-btn" aria-label="Email" target="_blank" rel="noopener noreferrer">
                             ✉
                         </a> */}
